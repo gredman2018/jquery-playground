@@ -1,0 +1,52 @@
+.circle1{
+	background: violet;
+}
+
+
+.circle0{
+  background: pink;
+}
+
+.circle2{
+background: aqua;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+
+
+}
+
+.square {
+  background: #9f94e3;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+
+
+}
+.color{
+/*	background: blue;
+*/	animation-name: shift;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+
+
+@keyframes shift {
+  from {background-color: pink;}
+  to {background-color: blue;}
+
+}
+
+.move{
+	margin-left: 300px;
+
+}
+
+.makeCircle{
+	border-radius: 50%
+}
